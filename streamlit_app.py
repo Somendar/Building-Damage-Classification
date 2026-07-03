@@ -66,8 +66,10 @@ class DualEfficientNet(nn.Module):
 # --------------------------------------------------
 # LOAD MODEL
 # --------------------------------------------------
+from pathlib import Path
 
-MODEL_PATH = r"C:\Users\Somendar Das\Desktop\Building_Damage_Grading\dual_efficientnet_final.pth"
+BASE_DIR = Path(__file__).parent
+MODEL_PATH = BASE_DIR / "dual_efficientnet_final.pth"
 
 @st.cache_resource
 def load_model():
