@@ -1,6 +1,6 @@
-# 🛰️ AI-Based Post-Disaster Building Damage Classification using Dual EfficientNet-B0
+#  AI-Based Post-Disaster Building Damage Classification using Dual EfficientNet-B0
 
-## 📌 Project Overview
+##  Project Overview
 
 Natural disasters such as earthquakes, floods, hurricanes, and wildfires cause severe damage to buildings and infrastructure. Manual damage assessment is often slow, expensive, and difficult immediately after a disaster.
 
@@ -12,7 +12,7 @@ Finally, the trained model is deployed as an interactive **Streamlit Web Applica
 
 ---
 
-# 🎯 Problem Statement
+#  Problem Statement
 
 After a natural disaster, emergency response teams must quickly identify damaged buildings to prioritize rescue operations and allocate resources effectively.
 
@@ -27,7 +27,7 @@ This project automates the damage assessment process using Artificial Intelligen
 
 ---
 
-# 🎯 Objectives
+#  Objectives
 
 The objectives of this project are:
 
@@ -39,7 +39,7 @@ The objectives of this project are:
 
 ---
 
-# 🛰 Dataset
+#  Dataset
 
 ## Dataset Used
 
@@ -80,7 +80,7 @@ The model predicts one of the following four classes:
 
 ---
 
-# 🏗 Project Methodology
+#  Project Methodology
 
 The complete workflow consists of the following stages.
 
@@ -117,7 +117,7 @@ Streamlit Deployment
 
 ---
 
-# 🔍 Data Preprocessing
+#  Data Preprocessing
 
 The original xBD satellite images contain multiple buildings and background objects.
 
@@ -135,7 +135,7 @@ Preprocessing steps include:
 
 ---
 
-# ⚙ Model Development
+#  Model Development
 
 Three different Deep Learning models were developed and compared.
 
@@ -183,7 +183,7 @@ The extracted feature vectors are concatenated and passed through fully connecte
 
 ---
 
-# 🏛 Proposed Architecture
+#  Proposed Architecture
 
 ```
                  PRE IMAGE
@@ -212,7 +212,7 @@ The extracted feature vectors are concatenated and passed through fully connecte
 
 ---
 
-# 📈 Training Configuration
+# Training Configuration
 
 | Parameter | Value |
 |------------|--------|
@@ -226,7 +226,7 @@ The extracted feature vectors are concatenated and passed through fully connecte
 
 ---
 
-# 📊 Results
+#  Results
 
 ## Model Comparison
 
@@ -249,7 +249,7 @@ The extracted feature vectors are concatenated and passed through fully connecte
 
 ---
 
-# 📉 Confusion Matrix
+#  Confusion Matrix
 
 (Add Confusion Matrix Screenshot Here)
 
@@ -262,7 +262,7 @@ Key Observations
 
 ---
 
-# 🌐 Streamlit Deployment
+#  Streamlit Deployment
 
 The trained model was deployed using Streamlit Community Cloud.
 
@@ -280,7 +280,7 @@ https://building-damage-classification-iazexu9jafbeak7swaqffa.streamlit.app/
 
 
 
-# 💻 Installation
+#  Installation
 
 Clone the repository
 
@@ -308,7 +308,7 @@ streamlit run streamlit_app.py
 
 ---
 
-# 🛠 Technologies Used
+#  Technologies Used
 
 Programming Language
 
@@ -335,7 +335,7 @@ Development Environment
 
 ---
 
-# 🚀 Future Improvements
+#  Future Improvements
 
 - Train on complete xBD dataset
 - Vision Transformer (ViT) implementation
@@ -346,7 +346,7 @@ Development Environment
 
 ---
 
-# 👨‍💻 Authors
+#  Authors
 
 Somendar Kumar Das
 
